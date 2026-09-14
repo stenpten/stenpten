@@ -30,7 +30,7 @@
 
 ## 🚀 项目经历
 
-### nanoptq — 训练后量化（PTQ）工具库 · 独立开发
+### [nanoptq](https://github.com/stenpten/nanoquant) — 训练后量化（PTQ）工具库 · 独立开发
 - 从零实现 PTQ 量化库，完成六个里程碑迭代（w1–w6）
 - 提出条件敏感度分析思路，在多个模型上完成实证对比；M1 方法在 holdout 集上胜出
 - 双后端 INT8 量化实现，对实际加速比给出量化实测结论
