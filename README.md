@@ -1,76 +1,69 @@
-<div align="center">
+# Hi, I am Liu Junyan 👋
 
-# 你好，我是刘俊岩 👋
+Hangzhou Dianzi University · B.Eng. student in Intelligent Science and Technology · Class of 2027
 
-**杭州电子科技大学 · 智能科学与技术（2027 届本科）**
-**计算机视觉 / 算法方向 · 目标检测 · 实例分割 · 模型量化**
+Computer Vision / Deep Learning · Object Detection · Instance Segmentation · Model Quantization
 
-[![Email](https://img.shields.io/badge/Email-1295402349%40qq.com-blue?logo=gmail)](mailto:1295402349@qq.com)
-[![Location](https://img.shields.io/badge/Hangzhou-China-green)]()
-[![Open to Work](https://img.shields.io/badge/-Open%20to%20Work-success)]()
+📍 Hangzhou, China  ·  📧 1295402349@qq.com  ·  🔎 Open to remote internships and project-based opportunities
 
-</div>
+## About Me
 
-## 🎓 教育背景
+I am an undergraduate student working on practical computer vision and deep learning systems. My experience covers data annotation and quality assurance, OCR, object detection, instance segmentation, model evaluation, Linux deployment, and post-training quantization. I enjoy building reproducible experiments and measuring real accuracy/latency trade-offs instead of relying on unsupported claims.
 
-**杭州电子科技大学** · 智能科学与技术（本科） · 2023.09 – 2027.06
+## Education
 
-- GPA **4.327 / 5**（专业前 25%）
-- **国家励志奖学金** ×2、校二等奖学金 ×2、校三等奖学金 ×1
-- 核心课程：深度学习（5.0/5.0）、机器视觉（4.9/5.0）、机器学习（4.3/5.0）、信号分析与处理 Ⅰ（5.0/5.0）
+**Hangzhou Dianzi University**  ·  Intelligent Science and Technology (B.Eng.)  ·  2023.09 – 2027.06
 
-## 💼 实习经历
+- GPA: 4.327 / 5.0 (Top 25%)
+- National Encouragement Scholarship ×2; University Scholarships ×3
+- Selected coursework: Deep Learning (5.0/5.0), Machine Vision (4.9/5.0), Machine Learning (4.3/5.0)
 
-**九州文化传媒有限公司 · AI 产研部门 · 数据标注实习生** · 2026.05 – 2026.08
+## Experience
 
-- 主导短剧多源数据整理、标注与质检，搭建标准化标注流程，累计交付数据 **6 万+ 条**
-- 基于 **YOLO + OCR** 构建字幕区域检测与自动提取识别流水线，验证集字符识别准确率 **99.99%**
-- 训练覆盖印刷体、艺术字等复杂场景的文字识别 OCR 模型，相较纯人工提取效率显著提升
-- 基于 **Linux** 完成训练环境搭建、任务调度与推理部署，沉淀「标注—训练—评估」可复用流水线
+### Data Annotation Intern · AI R&D Department · Jiuzhou Culture Media Co., Ltd.
+**2026.05 – 2026.08**
 
-## 🚀 项目经历
+- Organized, annotated, and quality-checked multi-source short-drama data; delivered 60,000+ labeled samples.
+- Built a YOLO + OCR subtitle detection and recognition pipeline with 99.99% validation-set character recognition accuracy.
+- Trained OCR models for printed text and artistic fonts, improving extraction efficiency by approximately 4× versus manual processing.
+- Set up Linux training environments, task scheduling, and inference deployment for a reusable annotation–training–evaluation workflow.
 
-### [nanoptq](https://github.com/stenpten/nanoquant) — 训练后量化（PTQ）工具库 · 独立开发
-- 从零实现 PTQ 量化库，完成六个里程碑迭代（w1–w6）
-- 提出条件敏感度分析思路，在多个模型上完成实证对比；M1 方法在 holdout 集上胜出
-- 双后端 INT8 量化实现，对实际加速比给出量化实测结论
+## Selected Projects
 
-### 基于 YOLOv11 的城市内涝图像监测系统 · 项目负责人 · 2025.09 – 2025.12
-- 覆盖数据标注 → 模型训练 → 界面交付全链路；基于 Labelme 完成涉水场景标注与数据清洗
-- 基于 YOLOv11 构建检测流程并对比 R-CNN、Transformer 基线：**mAP@0.5 0.91、40 FPS**，较 R-CNN 精度提升约 6%
-- 基于 PyQt5 开发可视化界面，支持图像导入与检测结果展示
+### [nanoquant](https://github.com/stenpten/nanoquant) · Post-Training Quantization Toolkit for YOLO Detectors
 
-### 植物 H₂O₂ 荧光智能探测系统 · YOLO 算法核心成员 · 2025.10 – 2026.05
-- 负责 YOLO 实例分割模块：构建 500 张荧光图像、500 个叶片区域、800+ 亮点实例数据集
-- 对比 6 个 YOLO11/YOLO26 模型并优化数据增强策略：**Box mAP50 0.971、Mask mAP50 0.907**
-- 支撑 H₂O₂ 定量分析与胁迫判别，获**全国大学生生命科学竞赛省级三等奖**
+- Implemented a PyTorch-based PTQ toolkit for weight quantization, activation calibration, layer sensitivity analysis, and goal-driven mixed-precision search.
+- Compared calibration methods and measured accuracy/latency end to end across ONNX Runtime and TensorRT backends.
+- Built reproducible experiments and 71 automated tests; released under the MIT License.
 
-## 🏆 荣誉证书
+### Urban Flooding Image Monitoring System Based on YOLOv11
 
-国家励志奖学金（×2） · 全国大学生生命科学竞赛省级三等奖 · 优秀学生干部 · 国信蓝桥工程实践能力培训证书 · CET-4 · 国家三级篮球裁判证
+- Delivered the pipeline from Labelme annotation and data cleaning to model training, evaluation, and a PyQt5 interface.
+- Achieved 0.91 mAP@0.5 and 40 FPS inference, with approximately 6% higher accuracy than an R-CNN baseline.
 
-## 🌱 关注方向
+### Plant H₂O₂ Fluorescence Detection System
 
-- 目标检测、实例分割等 CV 任务；模型量化压缩与低比特推理、端侧部署
+- Built datasets containing 500 fluorescence images, 500 leaf regions, and 800+ fluorescence-point instances.
+- Compared six YOLO11/YOLO26 variants and optimized augmentation strategies.
+- Achieved Box mAP50 0.971 and Mask mAP50 0.907; the project received a provincial third prize in the National College Students Life Science Competition.
 
-## 🛠 技术栈
+## Technical Skills
 
-`Python` `C` `PyTorch` `YOLO11 / YOLO26` `U-Net` `OCR` `LabelImg` `PyQt5` `Linux`
+- **Programming:** Python, C
+- **ML/CV:** PyTorch, YOLO11/YOLO26, U-Net, OCR, object detection, instance segmentation
+- **Optimization:** Post-training quantization, INT8, mixed precision, model sensitivity analysis, inference benchmarking
+- **Engineering:** Linux, Git, Labelme/LabelImg, PyQt5, ONNX Runtime, TensorRT, model deployment
+- **Languages:** Chinese (native), English (CET-4; technical reading)
 
-数据标注与质检 · 模型训练与调优 · 推理部署 · 英文技术文献阅读
+## Additional Experience
 
-## 🌟 校园经历
+- President of a 40-person student association team, leading campus support initiatives.
+- International visiting student at Cyprus University of Technology; completed English-taught coursework and cross-cultural collaboration.
 
-- **学生资助管理中心社团 · 社长**（2025.06 至今）：带领 40 人团队策划落地「十佳勤工助学之星」「爱心超市」「绿色通道」等活动
-- **塞浦路斯理工大学国际访学**（2025.02）：校资助一个月英文课程与跨文化技术交流
+## Contact
 
-## 📫 联系方式
+- Email: 1295402349@qq.com
+- GitHub: https://github.com/stenpten
+- Open to: remote computer vision, Python/PyTorch, AI evaluation, data quality, OCR, model optimization, and inference-related internships or project work.
 
-- 邮箱：[1295402349@qq.com](mailto:1295402349@qq.com)
-- 正在寻找 **CV / 算法工程方向的实习与校招机会**，欢迎联系！
-
----
-
-<div align="center">
-<i>Detection, quantization, and honest benchmarks. 📉⚡</i>
-</div>
+> Detection, quantization, and honest benchmarks. 📉⚡
